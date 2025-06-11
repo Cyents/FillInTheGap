@@ -41,7 +41,7 @@
 </head>
 <body>
   <div id="unity-container">
-    <div id="loadingBar">Loading Fill In The Gap...</div>
+    
     <canvas id="unity-canvas"></canvas>
   </div>
 
@@ -57,7 +57,7 @@
       productName: "Fill In The Gap",
       productVersion: "1.0"
     }).then((unityInstance) => {
-      document.getElementById("loadingBar").style.display = "none";
+      //document.getElementById("loadingBar").style.display = "none";
     }).catch((message) => {
       alert("Failed to load game:\n" + message);
     });
